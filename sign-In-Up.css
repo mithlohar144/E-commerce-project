@@ -1,0 +1,226 @@
+body{
+    background: rgb(12,82,33);
+    background: linear-gradient(90deg, rgba(12,82,33,1) 1%, rgba(9,121,78,1) 18%, rgba(234,0,255,0.9983301670277486) 67%);
+}
+.container-sign-up{
+    height: 600px;
+    width: 450px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 200px;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    transition: transform 0.5s ease;
+    cursor: pointer;
+    
+}
+.container-sign-up:hover{
+    transform: scale(1.05);
+}
+.containar{
+    height: 500px;
+    width: 400px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 200px;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    transition: transform 0.5s ease;
+    cursor: pointer;
+    
+    
+}
+.containar:hover{
+    transform: scale(1.05);
+}
+.form-title {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #333;
+    font-size: 1.8rem;
+  }
+
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #3f3b3b;
+    font-size: 0.9rem;
+    font-size: 18px;
+  }
+
+  .form-control {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+
+  .form-control:focus {
+    outline: none;
+    border-color: #a1c4fd;
+  }
+
+  .form-check {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .form-check input {
+    margin-right: 0.5rem;
+  }
+
+  .form-check label {
+    color: #302727;
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 0.8rem;
+    background: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    text-decoration: none;
+    border: 1px solid ;
+  }
+
+  .btn:hover {
+    background: #357abd;
+  }
+
+  .forgot-password {
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+    color: #2c2d2d;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-size: 15px;
+    
+  }
+
+  .forgot-password:hover {
+    text-decoration: underline;
+  }
+  #nav-bar{
+    height: 80px;
+    max-width: 100%;
+    background-color: #f7f9fc;
+    color: rgb(10, 105, 248);
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .navbar-brand{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 0 20px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    &:hover{
+      color: #f1f1f1;
+    }
+  }
+.navbar-brand a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 0 20px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    &:hover{
+      color: #f1f1f1;
+    }
+    
+  
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    padding-right: 100px;
+    transition: padding-right 0.3s ease;
+    margin-left: 100px;
+}
+.nav-item{
+    padding: 0 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+    &:hover{
+      color: var(--main-color);
+      background-color: transparent;
+      border-bottom: 2px solid var(--main-color);
+      border-radius: 5px;
+    }
+    &:hover::after{
+        width: 100%;
+    }
+    a{
+      color: rgb(57, 170, 240);
+      text-decoration: none;
+    }
+    a:hover{
+      color: #0c0f11;
+      text-decoration: underline;
+      transition: color 0.5s ease;
+      
+    }
+    a:hover::after{
+        content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+}
+.nav-link{
+    color: rgb(57, 45, 45);
+    text-decoration: none;
+    font-size: 18px;
+
+    transition: color 0.3s ease;
+    &:hover{
+      color: #119ced;
+    }
+}
